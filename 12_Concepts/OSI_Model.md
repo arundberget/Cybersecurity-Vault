@@ -1,0 +1,1 @@
+The **OSI (Open Systems Interconnection) Model** is a conceptual framework used to understand and describe how different networking protocols interact in a layered approach.
