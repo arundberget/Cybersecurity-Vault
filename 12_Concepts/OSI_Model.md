@@ -70,4 +70,7 @@ Understanding the OSI Model is essential for both attack and defensive perspecti
 
 ---
 
+#tags
+#concept/networking #foundation #reference
+
 _Updated July 4, 2025_
