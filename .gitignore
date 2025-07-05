@@ -1,5 +1,5 @@
+# .gitignore
+.gitignore
+
 # Obsidian configuration folder
 .obsidian/
-
-# Git usage guide
-_internal/
