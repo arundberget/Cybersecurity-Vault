@@ -1,4 +1,4 @@
-# 🔐 Cybersecurity Vault
+# Cybersecurity Vault
 
 This is my lifelong documentation vault for cybersecurity. It covers both
 
@@ -11,7 +11,7 @@ Built using Markdown for compatibility with:
 
 ---
 
-## 🗂️ Structure Overview (Can change)
+## Structure Overview (Can change)
 
 | Folder                    | Purpose                                    |
 | ------------------------- | ------------------------------------------ |
@@ -31,7 +31,7 @@ Built using Markdown for compatibility with:
 
 ---
 
-## ✍️ Why I'm using Markdown
+## Why I'm using Markdown
 
 - Fully cross-platform (Obsidian, VS Code, GitHub, mobile)
 - Allows focus on **knowledge and clarity**
@@ -39,7 +39,7 @@ Built using Markdown for compatibility with:
 
 ---
 
-## 💡Vault Goals
+## Vault Goals
 
 - Serve as a long-term **documentation and reference system**
 - Organize structured, cross-linked knowledge for red and blue teams
@@ -48,6 +48,6 @@ Built using Markdown for compatibility with:
 
 ---
 
-## ❗In Progress
+## In Progress
 
  This vault is still in development. As I study, train, and work, I'll continue adding new pages, tools, frameworks, and cheat sheets.
