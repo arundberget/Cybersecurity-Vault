@@ -32,7 +32,7 @@ This layer handles MAC addressing and local network communication. Tools like [[
 This layer works with IP addresses and routing. Protocols like IP and ICMP are commonly exploited in reconnaissance (see: [[Scanning_Process|Scanning Process]] and [[Reconnaissance_Tools|Reconnaissance Tools]]).
 
 ### Layer 4: Transport
-Handles connection reliability. Protocols like TCP and UDP are often the targets of [[Port_Scanning|port scanning]] and flooding attacks using tools like [[Nmap]].
+Handles connection reliability. Protocols like TCP and UDP are often the targets of [[Port_Scanning|port scanning]] and flooding attacks using tools like [[08_Red_Team_Tools/Nmap]].
 
 ### Layer 5: Session
 This layer establishes, manages, and terminates communication sessions. Session hijacking is a common attack technique.
@@ -64,7 +64,7 @@ Understanding the OSI Model is essential for both attack and defensive perspecti
 ## Notes
 
 - All cyber attacks map to one or more OSI layers.
-- Many security tools, like [[Wireshark]], [[Nmap]], and [[Zeek]], function across multiple layers.
+- Many security tools, like [[Wireshark]], [[08_Red_Team_Tools/Nmap]], and [[Zeek]], function across multiple layers.
 - The OSI Model is theoretical; the [[TCP_IP|TCP/IP]] model is more commonly implemented in practice.
 - You may also want to understand the [[OSI_vs_TCP_Model|difference between the OSI and the TCP Model]]
 

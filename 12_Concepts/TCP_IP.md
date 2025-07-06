@@ -55,7 +55,7 @@ Provides protocols used by programs like web browsers, email clients, and file t
 
 ## Embedded Tools and Relevance
 
-- Tools like [[Nmap]] and [[Wireshark]] rely on understanding of TCP/IP to capture, analyze, and simulate network traffic.
+- Tools like [[08_Red_Team_Tools/Nmap]] and [[Wireshark]] rely on understanding of TCP/IP to capture, analyze, and simulate network traffic.
 - Knowing this model is essential for both the [[PenTest_Processes|penetration test processes]] and [[Incident_Response|incident response]].
 
 ---
