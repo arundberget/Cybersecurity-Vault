@@ -30,6 +30,20 @@ This note covers core concepts from [[PenTest_Processes|penetration test process
 
 ---
 
+## Legal Risks in Cybersecurity Work
+
+| Risk                  | Description                                             |
+| --------------------- | ------------------------------------------------------- |
+| Unauthorized Access   | Accessing systems without clear legal permission        |
+| Data Breach Liability | Leaking or mishandling sensitive data during testing    |
+| Denial of Service     | Disrupting systems even unintentionally                 |
+| Scope Violations      | Operating outside agreed testing boundaries             |
+| Regulatory Violations | Breaching compliance rules (e.g., GDPR, HIPAA, PCI-DSS) |
+
+Penetration testers must often align with regulatory and legal frameworks during an engagement.
+
+---
+
 ## Key Terms
 
 - **Informed Consent**: target organization understands risks and explicitly agrees to testing
