@@ -45,3 +45,7 @@ Red team assessments simulate long-term, stealthy adversary behavior, while blue
 
 #tags
 #foundation #assessment #security #compliance #pentest
+
+---
+
+_Last updated July 9, 2025_
