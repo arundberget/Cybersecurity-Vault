@@ -1,0 +1,69 @@
+site_name: Cybersecurity Vault
+theme:
+  name: material
+
+nav:
+  - Home: README.md
+  - 00 Index:
+      - Index: 00_Index/index.md
+      - Tags: 00_Index/tags.md
+  - 01 Foundations:
+      - Penetration Test Process: 01_Foundations/PenTest_Processes.md
+      - Legal & Ethical Compliance: 01_Foundations/Legal_Ethical_Compliance.md
+      - Engagement Contracts: 01_Foundations/Engagement_Contracts.md
+      - Assessment Types: 01_Foundations/Assessment_Types.md
+      - Security Frameworks: 01_Foundations/Security_Frameworks.md
+  - 02 Pre-Attack:
+      - Threat Actors: 02_Pre_Attack/Threat_Actors.md
+      - Target Selection: 02_Pre_Attack/Target_Selection.md
+      - Attack Surface: 02_Pre_Attack/Attack_Surface.md
+  - 03 Reconnaissance:
+      - Process: 03_Reconnaissance/Process.md
+      - Tools: 03_Reconnaissance/Tools.md
+      - Countermeasures: 03_Reconnaissance/Countermeasures.md
+  - 04 Scanning:
+      - Process: 04_Scanning/Process.md
+      - Tools: 04_Scanning/Tools.md
+      - Considerations: 04_Scanning/Considerations.md
+  - 05 Attack Techniques:
+      - Social Engineering:
+          - Overview: 05_Attack_Techniques/Social_Engineering/Overview.md
+          - Motivation: 05_Attack_Techniques/Social_Engineering/Motivation.md
+          - Techniques: 05_Attack_Techniques/Social_Engineering/Techniques.md
+          - Phishing: 05_Attack_Techniques/Social_Engineering/Phishing.md
+      - Physical Security:
+          - Controls: 05_Attack_Techniques/Physical_Security/Controls.md
+          - Attacks: 05_Attack_Techniques/Physical_Security/Attacks.md
+  - 06 Defense Operations:
+      - Incident Response: 06_Defense_Operations/Incident_Response.md
+      - Malware Analysis: 06_Defense_Operations/Malware_Analysis.md
+      - Threat Hunting: 06_Defense_Operations/Threat_Hunting.md
+      - Logging & Monitoring: 06_Defense_Operations/Logging_Monitoring.md
+  - 07 Blue Team Tools:
+      - SIEM Tools: 07_Blue_Team_Tools/SIEM_Tools.md
+      - EDR Tools: 07_Blue_Team_Tools/EDR_Tools.md
+      - Zeek: 07_Blue_Team_Tools/Zeek.md
+      - Suricata: 07_Blue_Team_Tools/Suricata.md
+  - 08 Red Team Tools:
+      - Nmap: 08_Red_Team_Tools/Nmap.md
+      - Netcat: 08_Red_Team_Tools/Netcat.md
+      - Burp Suite: 08_Red_Team_Tools/BurpSuite.md
+      - Metasploit: 08_Red_Team_Tools/Metasploit.md
+  - 09 Threat Intelligence:
+      - MITRE ATT&CK: 09_Threat_Intelligence/MITRE_ATT&CK.md
+      - IOC Tracking: 09_Threat_Intelligence/IOC_Tracking.md
+      - TTPs: 09_Threat_Intelligence/TTPs.md
+  - 10 Cheat Sheets:
+      - Nmap: 10_CheatSheets/Nmap.md
+      - Enumeration: 10_CheatSheets/Enumeration.md
+      - Incident Response: 10_CheatSheets/Incident_Response.md
+      - Log Analysis: 10_CheatSheets/Log_Analysis.md
+  - 11 Labs:
+      - Lab Template: 11_Labs/Lab_Template.md
+      - Example Lab: 11_Labs/Example_Lab_01.md
+  - 12 Concepts:
+      - OSI Model: 12_Concepts/OSI_Model.md
+      - TCP/IP: 12_Concepts/TCP_IP.md
+      - OSI vs TCP: 12_Concepts/OSI_vs_TCP_Model.md
+      - Encryption: 12_Concepts/Encryption.md
+      - Hashing: 12_Concepts/Hashing.md
