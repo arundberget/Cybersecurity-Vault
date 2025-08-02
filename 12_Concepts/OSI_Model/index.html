@@ -254,7 +254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../00_Index/index.md" class="md-nav__link">
+      <a href="../../00_Index/" class="md-nav__link">
         
   
   
@@ -2287,7 +2287,7 @@
 
 
 <h1 id="osi-model">OSI Model</h1>
-<p>The OSI (Open Systems Interconnection) Model is a conceptual framework used to describe how different networking functions interact across a network. It consists of seven layers, each with specific responsibilities and aligns closely with concepts found in the [[TCP_IP|TCP/IP]] model.</p>
+<p>The OSI (Open Systems Interconnection) Model is a conceptual framework used to describe how different networking functions interact across a network. It consists of seven layers, each with specific responsibilities and aligns closely with concepts found in the <a href="..%5Ctcp_ip" title="TCP/IP">TCP/IP</a> model.</p>
 <hr />
 <h2 id="layer-summary">Layer Summary</h2>
 <table>
@@ -2348,19 +2348,19 @@
 <h2 id="layer-details">Layer Details</h2>
 <p>The OSI Model breaks down communication into <strong>layers</strong>, helping network engineers and cybersecurity professional isolate problems and threats more effectively.</p>
 <h3 id="layer-1-physical">Layer 1: Physical</h3>
-<p>Responsible for the raw transmission of bits over a medium. Common attack types here include hardware taps and [[Physical_Security|physical intrusion]].</p>
+<p>Responsible for the raw transmission of bits over a medium. Common attack types here include hardware taps and <a href="..%5Cphysical_security" title="physical intrusion">physical intrusion</a>.</p>
 <h3 id="layer-2-data-link">Layer 2: Data Link</h3>
-<p>This layer handles MAC addressing and local network communication. Tools like [[Wireshark]] operate at this and higher layers, revealing frame-level traffic.</p>
+<p>This layer handles MAC addressing and local network communication. Tools like <a href="..%5Cwireshark" title="Wireshark">Wireshark</a> operate at this and higher layers, revealing frame-level traffic.</p>
 <h3 id="layer-3-network">Layer 3: Network</h3>
-<p>This layer works with IP addresses and routing. Protocols like IP and ICMP are commonly exploited in reconnaissance (see: [[Scanning_Process|Scanning Process]] and [[Reconnaissance_Tools|Reconnaissance Tools]]).</p>
+<p>This layer works with IP addresses and routing. Protocols like IP and ICMP are commonly exploited in reconnaissance (see: <a href="..%5Cscanning_process" title="Scanning Process">Scanning Process</a> and <a href="..%5Creconnaissance_tools" title="Reconnaissance Tools">Reconnaissance Tools</a>).</p>
 <h3 id="layer-4-transport">Layer 4: Transport</h3>
-<p>Handles connection reliability. Protocols like TCP and UDP are often the targets of [[Port_Scanning|port scanning]] and flooding attacks using tools like [[08_Red_Team_Tools/Nmap]].</p>
+<p>Handles connection reliability. Protocols like TCP and UDP are often the targets of <a href="..%5Cport_scanning" title="port scanning">port scanning</a> and flooding attacks using tools like <a href="..%5C08_red_team_tools%5Cnmap" title="08_Red_Team_Tools/Nmap">08_Red_Team_Tools/Nmap</a>.</p>
 <h3 id="layer-5-session">Layer 5: Session</h3>
 <p>This layer establishes, manages, and terminates communication sessions. Session hijacking is a common attack technique.</p>
 <h3 id="layer-6-presentation">Layer 6: Presentation</h3>
-<p>This layer ensures data is in a usable format and handles encryption and decryption. It connects directly to concepts found in [[Encryption|encryption]] and [[SSL_TLS|SSL/TLS]].</p>
+<p>This layer ensures data is in a usable format and handles encryption and decryption. It connects directly to concepts found in <a href="..%5Cencryption" title="encryption">encryption</a> and <a href="..%5Cssl_tls" title="SSL/TLS">SSL/TLS</a>.</p>
 <h3 id="layer-7-application">Layer 7: Application</h3>
-<p>The interface for user-level applications like web browsers or email clients. Common attacks here include XSS and injection attacks, often seen in [[Web_Application_Security|web application security]].</p>
+<p>The interface for user-level applications like web browsers or email clients. Common attacks here include XSS and injection attacks, often seen in <a href="..%5Cweb_application_security" title="web application security">web application security</a>.</p>
 <hr />
 <h2 id="security-relevance-by-layer">Security Relevance by Layer</h2>
 <table>
@@ -2401,14 +2401,14 @@
 </tr>
 </tbody>
 </table>
-<p>Understanding the OSI Model is essential for both attack and defensive perspectives, especially when applying frameworks like [[MITRE_ATT&amp;CK|MITRE ATT&amp;CK]].</p>
+<p>Understanding the OSI Model is essential for both attack and defensive perspectives, especially when applying frameworks like <a href="..%5Cmitre_attck" title="MITRE ATT&amp;CK">MITRE ATT&amp;CK</a>.</p>
 <hr />
 <h2 id="notes">Notes</h2>
 <ul>
 <li>All cyber attacks map to one or more OSI layers.</li>
-<li>Many security tools, like [[Wireshark]], [[08_Red_Team_Tools/Nmap]], and [[Zeek]], function across multiple layers.</li>
-<li>The OSI Model is theoretical; the [[TCP_IP|TCP/IP]] model is more commonly implemented in practice.</li>
-<li>You may also want to understand the [[OSI_vs_TCP_Model|difference between the OSI and the TCP Model]]</li>
+<li>Many security tools, like <a href="..%5Cwireshark" title="Wireshark">Wireshark</a>, <a href="..%5C08_red_team_tools%5Cnmap" title="08_Red_Team_Tools/Nmap">08_Red_Team_Tools/Nmap</a>, and <a href="..%5Czeek" title="Zeek">Zeek</a>, function across multiple layers.</li>
+<li>The OSI Model is theoretical; the <a href="..%5Ctcp_ip" title="TCP/IP">TCP/IP</a> model is more commonly implemented in practice.</li>
+<li>You may also want to understand the <a href="..%5Cosi_vs_tcp_model" title="difference between the OSI and the TCP Model">difference between the OSI and the TCP Model</a></li>
 </ul>
 <hr />
 <h1 id="tags">tags</h1>

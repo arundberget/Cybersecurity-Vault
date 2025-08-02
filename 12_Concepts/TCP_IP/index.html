@@ -254,7 +254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../00_Index/index.md" class="md-nav__link">
+      <a href="../../00_Index/" class="md-nav__link">
         
   
   
@@ -2233,7 +2233,7 @@
 
 
 <h1 id="tcpip-model">TCP/IP Model</h1>
-<p>The TCP/IP (Transmission Control Protocol/Internet Protocol) model is a four-layer framework that defines how data is transmitted over the internet. It serves as the <strong>real-world implementation</strong> of networking functions, compared to the more academic [[OSI_Model|OSI model]].</p>
+<p>The TCP/IP (Transmission Control Protocol/Internet Protocol) model is a four-layer framework that defines how data is transmitted over the internet. It serves as the <strong>real-world implementation</strong> of networking functions, compared to the more academic <a href="..%5Cosi_model" title="OSI model">OSI model</a>.</p>
 <hr />
 <h2 id="layer-comparison">Layer Comparison</h2>
 <table>
@@ -2281,38 +2281,38 @@
 <li>Interfaces with physical hardware</li>
 <li>Manages MAC addressing and frame transmission</li>
 <li>Supports Ethernet, PPP, and wireless protocols</li>
-<li>Tools like [[Wireshark]] can inspect this layer</li>
+<li>Tools like <a href="..%5Cwireshark" title="Wireshark">Wireshark</a> can inspect this layer</li>
 </ul>
 <h3 id="internet-layer">Internet Layer</h3>
 <p>Manages packet forwarding and addressing using IP addresses. It determines <strong>how data gets from source to destination</strong>.</p>
 <ul>
 <li>Protocols: IP, ICMP, ARP, IPSec</li>
-<li>Vulnerable to attacks like spoofing and scanning (see [[Scanning_Considerations|scanning considerations]])</li>
+<li>Vulnerable to attacks like spoofing and scanning (see <a href="..%5Cscanning_considerations" title="scanning considerations">scanning considerations</a>)</li>
 </ul>
 <h3 id="transport-layer">Transport Layer</h3>
 <p>Ensures data is delivered reliably or quickly between hosts.</p>
 <ul>
 <li>TCP provides reliable, ordered delivery</li>
 <li>UDP offers faster, connectionless communication</li>
-<li>TCP port numbers tie directly into [[Port_Scanning|port scanning]] and service enumeration.</li>
+<li>TCP port numbers tie directly into <a href="..%5Cport_scanning" title="port scanning">port scanning</a> and service enumeration.</li>
 </ul>
 <h3 id="application-layer">Application Layer</h3>
 <p>Provides protocols used by programs like web browsers, email clients, and file transfer tools.</p>
 <ul>
 <li>Protocols: HTTP, DNS, SMTP, FTP</li>
 <li>Layer most visible to users and attackers</li>
-<li>Needs [[Web_Application_Security|web application security]] and session handling to counter threat actors</li>
+<li>Needs <a href="..%5Cweb_application_security" title="web application security">web application security</a> and session handling to counter threat actors</li>
 </ul>
 <hr />
 <h2 id="notes">Notes</h2>
 <ul>
-<li>TCP/IP is flexible and modern — protocols like [[TLS]] and [[HTTPv2|HTTP/2]] sit at the Application Layer.</li>
+<li>TCP/IP is flexible and modern — protocols like <a href="..%5Ctls" title="TLS">TLS</a> and <a href="..%5Chttpv2" title="HTTP/2">HTTP/2</a> sit at the Application Layer.</li>
 <li>Layer boundaries are less strict in TCP/IP than in OSI.</li>
 </ul>
 <h2 id="embedded-tools-and-relevance">Embedded Tools and Relevance</h2>
 <ul>
-<li>Tools like [[08_Red_Team_Tools/Nmap|Nmap]] and [[Wireshark]] rely on understanding of TCP/IP to capture, analyze, and simulate network traffic.</li>
-<li>Knowing this model is essential for both the [[PenTest_Processes|penetration test processes]] and [[06_Defense_Operations/Incident_Response|incident response]].</li>
+<li>Tools like <a href="..%5C08_red_team_tools%5Cnmap" title="Nmap">Nmap</a> and <a href="..%5Cwireshark" title="Wireshark">Wireshark</a> rely on understanding of TCP/IP to capture, analyze, and simulate network traffic.</li>
+<li>Knowing this model is essential for both the <a href="..%5Cpentest_processes" title="penetration test processes">penetration test processes</a> and <a href="..%5C06_defense_operations%5Cincident_response" title="incident response">incident response</a>.</li>
 </ul>
 <hr />
 <h1 id="tags">tags</h1>
